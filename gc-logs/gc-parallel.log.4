@@ -1,0 +1,52 @@
+[2025-04-26T20:13:10.708+0000][0.004s][info][gc,init] CardTable entry size: 512
+[2025-04-26T20:13:10.708+0000][0.004s][debug][gc,heap] Minimum heap 8589934592  Initial heap 8589934592  Maximum heap 8589934592
+[2025-04-26T20:13:10.708+0000][0.004s][info ][gc     ] Using Parallel
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Version: 21.0.6+7-LTS (release)
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] CPUs: 2 total, 2 available
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Memory: 7938M
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Large Page Support: Disabled
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] NUMA Support: Disabled
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Compressed Oops: Enabled (Zero based)
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Heap Min Capacity: 8G
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Heap Initial Capacity: 8G
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Heap Max Capacity: 8G
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Pre-touch: Disabled
+[2025-04-26T20:13:10.712+0000][0.008s][info ][gc,init] Parallel Workers: 2
+[2025-04-26T20:13:10.720+0000][0.015s][info ][gc,metaspace] CDS archive(s) mapped at: [0x00007b5bcd000000-0x00007b5bcdc97000-0x00007b5bcdc97000), size 13201408, SharedBaseAddress: 0x00007b5bcd000000, ArchiveRelocationMode: 1.
+[2025-04-26T20:13:10.720+0000][0.015s][info ][gc,metaspace] Compressed class space mapped at: 0x00007b5bce000000-0x00007b5c0e000000, reserved size: 1073741824
+[2025-04-26T20:13:10.720+0000][0.015s][info ][gc,metaspace] Narrow klass base: 0x00007b5bcd000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0) Heap before GC invocations=1 (full 0):
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)  PSYoungGen      total 2446848K, used 2097664K [0x0000000755580000, 0x0000000800000000, 0x0000000800000000)
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)   eden space 2097664K, 100% used [0x0000000755580000,0x00000007d5600000,0x00000007d5600000)
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)   from space 349184K, 0% used [0x00000007eab00000,0x00000007eab00000,0x0000000800000000)
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)   to   space 349184K, 0% used [0x00000007d5600000,0x00000007d5600000,0x00000007eab00000)
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)  ParOldGen       total 5592576K, used 1073K [0x0000000600000000, 0x0000000755580000, 0x0000000755580000)
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)   object space 5592576K, 0% used [0x0000000600000000,0x000000060010c668,0x0000000755580000)
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)  Metaspace       used 94K, committed 320K, reserved 1114112K
+[2025-04-26T20:13:15.991+0000][5.286s][debug][gc,heap     ] GC(0)   class space    used 6K, committed 128K, reserved 1048576K
+[2025-04-26T20:13:15.991+0000][5.286s][info ][gc,start    ] GC(0) Pause Young (Allocation Failure)
+[2025-04-26T20:13:16.263+0000][5.558s][info ][gc,heap     ] GC(0) PSYoungGen: 2097664K(2446848K)->349161K(2446848K) Eden: 2097664K(2097664K)->0K(2097664K) From: 0K(349184K)->349161K(349184K)
+[2025-04-26T20:13:16.263+0000][5.558s][info ][gc,heap     ] GC(0) ParOldGen: 1073K(5592576K)->1353542K(5592576K)
+[2025-04-26T20:13:16.263+0000][5.558s][info ][gc,metaspace] GC(0) Metaspace: 94K(320K)->94K(320K) NonClass: 87K(192K)->87K(192K) Class: 6K(128K)->6K(128K)
+[2025-04-26T20:13:16.263+0000][5.558s][info ][gc          ] GC(0) Pause Young (Allocation Failure) 2049M->1662M(7851M) 272.317ms
+[2025-04-26T20:13:16.263+0000][5.559s][info ][gc,cpu      ] GC(0) User=0.13s Sys=0.26s Real=0.27s
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0) Heap after GC invocations=1 (full 0):
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)  PSYoungGen      total 2446848K, used 349161K [0x0000000755580000, 0x0000000800000000, 0x0000000800000000)
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)   eden space 2097664K, 0% used [0x0000000755580000,0x0000000755580000,0x00000007d5600000)
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)   from space 349184K, 99% used [0x00000007d5600000,0x00000007eaafa798,0x00000007eab00000)
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)   to   space 349184K, 0% used [0x00000007eab00000,0x00000007eab00000,0x0000000800000000)
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)  ParOldGen       total 5592576K, used 1353542K [0x0000000600000000, 0x0000000755580000, 0x0000000755580000)
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)   object space 5592576K, 24% used [0x0000000600000000,0x00000006529d1ab0,0x0000000755580000)
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)  Metaspace       used 94K, committed 320K, reserved 1114112K
+[2025-04-26T20:13:16.263+0000][5.559s][debug][gc,heap     ] GC(0)   class space    used 6K, committed 128K, reserved 1048576K
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1) Heap before GC invocations=2 (full 0):
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1)  PSYoungGen      total 2446848K, used 2446825K [0x0000000755580000, 0x0000000800000000, 0x0000000800000000)
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1)   eden space 2097664K, 100% used [0x0000000755580000,0x00000007d5600000,0x00000007d5600000)
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1)   from space 349184K, 99% used [0x00000007d5600000,0x00000007eaafa798,0x00000007eab00000)
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1)   to   space 349184K, 0% used [0x00000007eab00000,0x00000007eab00000,0x0000000800000000)
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1)  ParOldGen       total 5592576K, used 1353542K [0x0000000600000000, 0x0000000755580000, 0x0000000755580000)
+[2025-04-26T20:13:23.853+0000][13.148s][debug][gc,heap     ] GC(1)   object space 5592576K, 24% used [0x0000000600000000,0x00000006529d1ab0,0x0000000755580000)
+[2025-04-26T20:13:23.853+0000][13.149s][debug][gc,heap     ] GC(1)  Metaspace       used 94K, committed 320K, reserved 1114112K
+[2025-04-26T20:13:23.853+0000][13.149s][debug][gc,heap     ] GC(1)   class space    used 6K, committed 128K, reserved 1048576K
+[2025-04-26T20:13:23.853+0000][13.149s][info ][gc,start    ] GC(1) Pause Young (Allocation Failure)

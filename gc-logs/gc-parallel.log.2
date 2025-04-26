@@ -1,0 +1,609 @@
+[2025-04-26T20:57:57.178+0000][0.004s][info][gc,init] CardTable entry size: 512
+[2025-04-26T20:57:57.178+0000][0.004s][debug][gc,heap] Minimum heap 2147483648  Initial heap 2147483648  Maximum heap 2147483648
+[2025-04-26T20:57:57.178+0000][0.004s][info ][gc     ] Using Parallel
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Version: 21.0.6+7-LTS (release)
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] CPUs: 2 total, 2 available
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Memory: 7938M
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Large Page Support: Disabled
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] NUMA Support: Disabled
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Compressed Oops: Enabled (32-bit)
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Alignments: Space 512K, Generation 512K, Heap 2M
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Heap Min Capacity: 2G
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Heap Initial Capacity: 2G
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Heap Max Capacity: 2G
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Pre-touch: Disabled
+[2025-04-26T20:57:57.181+0000][0.007s][info ][gc,init] Parallel Workers: 2
+[2025-04-26T20:57:57.188+0000][0.014s][info ][gc,metaspace] CDS archive(s) mapped at: [0x00007a092f000000-0x00007a092fc97000-0x00007a092fc97000), size 13201408, SharedBaseAddress: 0x00007a092f000000, ArchiveRelocationMode: 1.
+[2025-04-26T20:57:57.188+0000][0.014s][info ][gc,metaspace] Compressed class space mapped at: 0x00007a0930000000-0x00007a0970000000, reserved size: 1073741824
+[2025-04-26T20:57:57.188+0000][0.014s][info ][gc,metaspace] Narrow klass base: 0x00007a092f000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0) Heap before GC invocations=1 (full 0):
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)  ParOldGen       total 1398272K, used 1073K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)   object space 1398272K, 0% used [0x0000000080000000,0x000000008010c668,0x00000000d5580000)
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:57:57.685+0000][0.511s][debug][gc,heap     ] GC(0)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:57:57.685+0000][0.511s][info ][gc,start    ] GC(0) Pause Young (Allocation Failure)
+[2025-04-26T20:57:57.735+0000][0.561s][info ][gc,heap     ] GC(0) PSYoungGen: 524800K(611840K)->87033K(611840K) Eden: 524800K(524800K)->0K(524800K) From: 0K(87040K)->87033K(87040K)
+[2025-04-26T20:57:57.735+0000][0.561s][info ][gc,heap     ] GC(0) ParOldGen: 1073K(1398272K)->271790K(1398272K)
+[2025-04-26T20:57:57.735+0000][0.561s][info ][gc,metaspace] GC(0) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:57:57.735+0000][0.561s][info ][gc          ] GC(0) Pause Young (Allocation Failure) 513M->350M(1963M) 49.746ms
+[2025-04-26T20:57:57.735+0000][0.561s][info ][gc,cpu      ] GC(0) User=0.05s Sys=0.05s Real=0.05s
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0) Heap after GC invocations=1 (full 0):
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)  PSYoungGen      total 611840K, used 87033K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)   eden space 524800K, 0% used [0x00000000d5580000,0x00000000d5580000,0x00000000f5600000)
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)   from space 87040K, 99% used [0x00000000f5600000,0x00000000faafe520,0x00000000fab00000)
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)  ParOldGen       total 1398272K, used 271790K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)   object space 1398272K, 19% used [0x0000000080000000,0x000000009096b818,0x00000000d5580000)
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:57:57.735+0000][0.561s][debug][gc,heap     ] GC(0)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1) Heap before GC invocations=2 (full 0):
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)  PSYoungGen      total 611840K, used 611833K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)   from space 87040K, 99% used [0x00000000f5600000,0x00000000faafe520,0x00000000fab00000)
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)  ParOldGen       total 1398272K, used 271790K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)   object space 1398272K, 19% used [0x0000000080000000,0x000000009096b818,0x00000000d5580000)
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:57:58.490+0000][1.316s][debug][gc,heap     ] GC(1)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:57:58.490+0000][1.316s][info ][gc,start    ] GC(1) Pause Young (Allocation Failure)
+[2025-04-26T20:57:58.576+0000][1.402s][info ][gc,heap     ] GC(1) PSYoungGen: 611833K(611840K)->87008K(611840K) Eden: 524800K(524800K)->0K(524800K) From: 87033K(87040K)->87008K(87040K)
+[2025-04-26T20:57:58.576+0000][1.402s][info ][gc,heap     ] GC(1) ParOldGen: 271790K(1398272K)->795704K(1398272K)
+[2025-04-26T20:57:58.576+0000][1.402s][info ][gc,metaspace] GC(1) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:57:58.576+0000][1.402s][info ][gc          ] GC(1) Pause Young (Allocation Failure) 862M->862M(1963M) 86.457ms
+[2025-04-26T20:57:58.576+0000][1.402s][info ][gc,cpu      ] GC(1) User=0.06s Sys=0.12s Real=0.09s
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1) Heap after GC invocations=2 (full 0):
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)  PSYoungGen      total 611840K, used 87008K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)   eden space 524800K, 0% used [0x00000000d5580000,0x00000000d5580000,0x00000000f5600000)
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)   from space 87040K, 99% used [0x00000000fab00000,0x00000000ffff8368,0x0000000100000000)
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)  ParOldGen       total 1398272K, used 795704K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)   object space 1398272K, 56% used [0x0000000080000000,0x00000000b090e080,0x00000000d5580000)
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:57:58.576+0000][1.402s][debug][gc,heap     ] GC(1)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2) Heap before GC invocations=3 (full 0):
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)  PSYoungGen      total 611840K, used 611808K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)   from space 87040K, 99% used [0x00000000fab00000,0x00000000ffff8368,0x0000000100000000)
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)  ParOldGen       total 1398272K, used 795704K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)   object space 1398272K, 56% used [0x0000000080000000,0x00000000b090e080,0x00000000d5580000)
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:57:59.322+0000][2.148s][debug][gc,heap     ] GC(2)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:57:59.322+0000][2.148s][info ][gc,start    ] GC(2) Pause Young (Allocation Failure)
+[2025-04-26T20:57:59.404+0000][2.230s][info ][gc,heap     ] GC(2) PSYoungGen: 611808K(611840K)->87025K(611840K) Eden: 524800K(524800K)->0K(524800K) From: 87008K(87040K)->87025K(87040K)
+[2025-04-26T20:57:59.404+0000][2.230s][info ][gc,heap     ] GC(2) ParOldGen: 795704K(1398272K)->1319928K(1398272K)
+[2025-04-26T20:57:59.404+0000][2.230s][info ][gc,metaspace] GC(2) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:57:59.404+0000][2.230s][info ][gc          ] GC(2) Pause Young (Allocation Failure) 1374M->1373M(1963M) 81.595ms
+[2025-04-26T20:57:59.404+0000][2.230s][info ][gc,cpu      ] GC(2) User=0.06s Sys=0.09s Real=0.08s
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2) Heap after GC invocations=3 (full 0):
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)  PSYoungGen      total 611840K, used 87025K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)   eden space 524800K, 0% used [0x00000000d5580000,0x00000000d5580000,0x00000000f5600000)
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)   from space 87040K, 99% used [0x00000000f5600000,0x00000000faafc518,0x00000000fab00000)
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)  ParOldGen       total 1398272K, used 1319928K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)   object space 1398272K, 94% used [0x0000000080000000,0x00000000d08fe1d0,0x00000000d5580000)
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:57:59.404+0000][2.230s][debug][gc,heap     ] GC(2)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3) Heap before GC invocations=4 (full 1):
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)  PSYoungGen      total 611840K, used 611825K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)   from space 87040K, 99% used [0x00000000f5600000,0x00000000faafc518,0x00000000fab00000)
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)  ParOldGen       total 1398272K, used 1319928K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)   object space 1398272K, 94% used [0x0000000080000000,0x00000000d08fe1d0,0x00000000d5580000)
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.098+0000][2.924s][debug][gc,heap     ] GC(3)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.098+0000][2.924s][info ][gc,start    ] GC(3) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.098+0000][2.924s][info ][gc,phases,start] GC(3) Marking Phase
+[2025-04-26T20:58:00.164+0000][2.990s][info ][gc,phases      ] GC(3) Marking Phase 66.128ms
+[2025-04-26T20:58:00.164+0000][2.990s][info ][gc,phases,start] GC(3) Summary Phase
+[2025-04-26T20:58:00.164+0000][2.990s][info ][gc,phases      ] GC(3) Summary Phase 0.033ms
+[2025-04-26T20:58:00.164+0000][2.990s][info ][gc,phases,start] GC(3) Adjust Roots
+[2025-04-26T20:58:00.165+0000][2.991s][info ][gc,phases      ] GC(3) Adjust Roots 0.689ms
+[2025-04-26T20:58:00.165+0000][2.991s][info ][gc,phases,start] GC(3) Compaction Phase
+[2025-04-26T20:58:00.264+0000][3.090s][info ][gc,phases      ] GC(3) Compaction Phase 98.842ms
+[2025-04-26T20:58:00.264+0000][3.090s][info ][gc,phases,start] GC(3) Post Compact
+[2025-04-26T20:58:00.268+0000][3.094s][info ][gc,phases      ] GC(3) Post Compact 4.169ms
+[2025-04-26T20:58:00.268+0000][3.094s][info ][gc,heap        ] GC(3) PSYoungGen: 611825K(611840K)->517819K(611840K) Eden: 524800K(524800K)->517819K(524800K) From: 87025K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.268+0000][3.094s][info ][gc,heap        ] GC(3) ParOldGen: 1319928K(1398272K)->1398200K(1398272K)
+[2025-04-26T20:58:00.268+0000][3.094s][info ][gc,metaspace   ] GC(3) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.268+0000][3.094s][info ][gc             ] GC(3) Pause Full (Ergonomics) 1886M->1871M(1963M) 170.089ms
+[2025-04-26T20:58:00.268+0000][3.094s][info ][gc,cpu         ] GC(3) User=0.24s Sys=0.09s Real=0.17s
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3) Heap after GC invocations=4 (full 1):
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)  PSYoungGen      total 611840K, used 517819K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)   eden space 524800K, 98% used [0x00000000d5580000,0x00000000f4f2ef18,0x00000000f5600000)
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)  ParOldGen       total 1398272K, used 1398200K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d556e2b0,0x00000000d5580000)
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.268+0000][3.094s][debug][gc,heap        ] GC(3)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.278+0000][3.104s][debug][gc,heap        ] GC(4) Heap before GC invocations=5 (full 2):
+[2025-04-26T20:58:00.278+0000][3.104s][debug][gc,heap        ] GC(4)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.278+0000][3.104s][debug][gc,heap        ] GC(4)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.278+0000][3.104s][debug][gc,heap        ] GC(4)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.278+0000][3.104s][debug][gc,heap        ] GC(4)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.279+0000][3.105s][debug][gc,heap        ] GC(4)  ParOldGen       total 1398272K, used 1398200K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.279+0000][3.105s][debug][gc,heap        ] GC(4)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d556e2b0,0x00000000d5580000)
+[2025-04-26T20:58:00.279+0000][3.105s][debug][gc,heap        ] GC(4)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.279+0000][3.105s][debug][gc,heap        ] GC(4)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.279+0000][3.105s][info ][gc,start       ] GC(4) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.279+0000][3.105s][info ][gc,phases,start] GC(4) Marking Phase
+[2025-04-26T20:58:00.299+0000][3.124s][info ][gc,phases      ] GC(4) Marking Phase 19.331ms
+[2025-04-26T20:58:00.299+0000][3.125s][info ][gc,phases,start] GC(4) Summary Phase
+[2025-04-26T20:58:00.299+0000][3.125s][info ][gc,phases      ] GC(4) Summary Phase 0.032ms
+[2025-04-26T20:58:00.299+0000][3.125s][info ][gc,phases,start] GC(4) Adjust Roots
+[2025-04-26T20:58:00.299+0000][3.125s][info ][gc,phases      ] GC(4) Adjust Roots 0.169ms
+[2025-04-26T20:58:00.299+0000][3.125s][info ][gc,phases,start] GC(4) Compaction Phase
+[2025-04-26T20:58:00.313+0000][3.139s][info ][gc,phases      ] GC(4) Compaction Phase 14.287ms
+[2025-04-26T20:58:00.313+0000][3.139s][info ][gc,phases,start] GC(4) Post Compact
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,phases      ] GC(4) Post Compact 3.583ms
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,heap        ] GC(4) PSYoungGen: 524800K(611840K)->524785K(611840K) Eden: 524800K(524800K)->524785K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,heap        ] GC(4) ParOldGen: 1398200K(1398272K)->1398200K(1398272K)
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,metaspace   ] GC(4) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc             ] GC(4) Pause Full (Ergonomics) 1877M->1877M(1963M) 37.837ms
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,cpu         ] GC(4) User=0.06s Sys=0.00s Real=0.04s
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4) Heap after GC invocations=5 (full 2):
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)  PSYoungGen      total 611840K, used 524785K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fc7e0,0x00000000f5600000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)  ParOldGen       total 1398272K, used 1398200K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d556e2b0,0x00000000d5580000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(4)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5) Heap before GC invocations=6 (full 3):
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fff80,0x00000000f5600000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)  ParOldGen       total 1398272K, used 1398266K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557e928,0x00000000d5580000)
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.317+0000][3.143s][debug][gc,heap        ] GC(5)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,start       ] GC(5) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.317+0000][3.143s][info ][gc,phases,start] GC(5) Marking Phase
+[2025-04-26T20:58:00.340+0000][3.166s][info ][gc,phases      ] GC(5) Marking Phase 22.841ms
+[2025-04-26T20:58:00.340+0000][3.166s][info ][gc,phases,start] GC(5) Summary Phase
+[2025-04-26T20:58:00.340+0000][3.166s][info ][gc,phases      ] GC(5) Summary Phase 0.030ms
+[2025-04-26T20:58:00.340+0000][3.166s][info ][gc,phases,start] GC(5) Adjust Roots
+[2025-04-26T20:58:00.340+0000][3.166s][info ][gc,phases      ] GC(5) Adjust Roots 0.112ms
+[2025-04-26T20:58:00.340+0000][3.166s][info ][gc,phases,start] GC(5) Compaction Phase
+[2025-04-26T20:58:00.350+0000][3.176s][info ][gc,phases      ] GC(5) Compaction Phase 9.508ms
+[2025-04-26T20:58:00.350+0000][3.176s][info ][gc,phases,start] GC(5) Post Compact
+[2025-04-26T20:58:00.353+0000][3.179s][info ][gc,phases      ] GC(5) Post Compact 3.577ms
+[2025-04-26T20:58:00.354+0000][3.179s][info ][gc,heap        ] GC(5) PSYoungGen: 524799K(611840K)->524799K(611840K) Eden: 524799K(524800K)->524799K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.354+0000][3.179s][info ][gc,heap        ] GC(5) ParOldGen: 1398266K(1398272K)->1398266K(1398272K)
+[2025-04-26T20:58:00.354+0000][3.179s][info ][gc,metaspace   ] GC(5) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.354+0000][3.180s][info ][gc             ] GC(5) Pause Full (Ergonomics) 1877M->1877M(1963M) 36.215ms
+[2025-04-26T20:58:00.354+0000][3.180s][info ][gc,cpu         ] GC(5) User=0.05s Sys=0.00s Real=0.04s
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5) Heap after GC invocations=6 (full 3):
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fff80,0x00000000f5600000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)  ParOldGen       total 1398272K, used 1398266K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557e928,0x00000000d5580000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(5)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6) Heap before GC invocations=7 (full 4):
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fff80,0x00000000f5600000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)  ParOldGen       total 1398272K, used 1398266K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557e928,0x00000000d5580000)
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.354+0000][3.180s][debug][gc,heap        ] GC(6)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.354+0000][3.180s][info ][gc,start       ] GC(6) Pause Full (Allocation Failure)
+[2025-04-26T20:58:00.354+0000][3.180s][info ][gc,phases,start] GC(6) Marking Phase
+[2025-04-26T20:58:00.369+0000][3.195s][info ][gc,phases      ] GC(6) Marking Phase 14.954ms
+[2025-04-26T20:58:00.369+0000][3.195s][info ][gc,phases,start] GC(6) Summary Phase
+[2025-04-26T20:58:00.369+0000][3.195s][info ][gc,phases      ] GC(6) Summary Phase 0.046ms
+[2025-04-26T20:58:00.369+0000][3.195s][info ][gc,phases,start] GC(6) Adjust Roots
+[2025-04-26T20:58:00.369+0000][3.195s][info ][gc,phases      ] GC(6) Adjust Roots 0.104ms
+[2025-04-26T20:58:00.369+0000][3.195s][info ][gc,phases,start] GC(6) Compaction Phase
+[2025-04-26T20:58:00.381+0000][3.207s][info ][gc,phases      ] GC(6) Compaction Phase 12.462ms
+[2025-04-26T20:58:00.381+0000][3.207s][info ][gc,phases,start] GC(6) Post Compact
+[2025-04-26T20:58:00.385+0000][3.211s][info ][gc,phases      ] GC(6) Post Compact 3.595ms
+[2025-04-26T20:58:00.385+0000][3.211s][info ][gc,heap        ] GC(6) PSYoungGen: 524799K(611840K)->524797K(611840K) Eden: 524799K(524800K)->524797K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.385+0000][3.211s][info ][gc,heap        ] GC(6) ParOldGen: 1398266K(1398272K)->1398266K(1398272K)
+[2025-04-26T20:58:00.385+0000][3.211s][info ][gc,metaspace   ] GC(6) Metaspace: 96K(320K)->96K(320K) NonClass: 88K(192K)->88K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.385+0000][3.211s][info ][gc             ] GC(6) Pause Full (Allocation Failure) 1877M->1877M(1963M) 31.318ms
+[2025-04-26T20:58:00.385+0000][3.211s][info ][gc,cpu         ] GC(6) User=0.06s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6) Heap after GC invocations=7 (full 4):
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)  PSYoungGen      total 611840K, used 524797K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55ff630,0x00000000f5600000)
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)  ParOldGen       total 1398272K, used 1398266K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557e928,0x00000000d5580000)
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)  Metaspace       used 96K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.385+0000][3.211s][debug][gc,heap        ] GC(6)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7) Heap before GC invocations=8 (full 5):
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)  ParOldGen       total 1398272K, used 1398272K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)   object space 1398272K, 100% used [0x0000000080000000,0x00000000d5580000,0x00000000d5580000)
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)  Metaspace       used 102K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.386+0000][3.212s][debug][gc,heap        ] GC(7)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.386+0000][3.212s][info ][gc,start       ] GC(7) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.386+0000][3.212s][info ][gc,phases,start] GC(7) Marking Phase
+[2025-04-26T20:58:00.402+0000][3.228s][info ][gc,phases      ] GC(7) Marking Phase 16.104ms
+[2025-04-26T20:58:00.402+0000][3.228s][info ][gc,phases,start] GC(7) Summary Phase
+[2025-04-26T20:58:00.402+0000][3.228s][info ][gc,phases      ] GC(7) Summary Phase 0.034ms
+[2025-04-26T20:58:00.402+0000][3.228s][info ][gc,phases,start] GC(7) Adjust Roots
+[2025-04-26T20:58:00.403+0000][3.229s][info ][gc,phases      ] GC(7) Adjust Roots 0.175ms
+[2025-04-26T20:58:00.403+0000][3.229s][info ][gc,phases,start] GC(7) Compaction Phase
+[2025-04-26T20:58:00.487+0000][3.313s][info ][gc,phases      ] GC(7) Compaction Phase 84.115ms
+[2025-04-26T20:58:00.487+0000][3.313s][info ][gc,phases,start] GC(7) Post Compact
+[2025-04-26T20:58:00.491+0000][3.317s][info ][gc,phases      ] GC(7) Post Compact 4.121ms
+[2025-04-26T20:58:00.491+0000][3.317s][info ][gc,heap        ] GC(7) PSYoungGen: 524800K(611840K)->524798K(611840K) Eden: 524800K(524800K)->524798K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.491+0000][3.317s][info ][gc,heap        ] GC(7) ParOldGen: 1398272K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.491+0000][3.317s][info ][gc,metaspace   ] GC(7) Metaspace: 102K(320K)->102K(320K) NonClass: 95K(192K)->95K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.491+0000][3.317s][info ][gc             ] GC(7) Pause Full (Ergonomics) 1878M->1877M(1963M) 104.757ms
+[2025-04-26T20:58:00.491+0000][3.317s][info ][gc,cpu         ] GC(7) User=0.20s Sys=0.00s Real=0.11s
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7) Heap after GC invocations=8 (full 5):
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)  PSYoungGen      total 611840K, used 524798K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55ffa98,0x00000000f5600000)
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fed8,0x00000000d5580000)
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)  Metaspace       used 102K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.491+0000][3.317s][debug][gc,heap        ] GC(7)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.492+0000][3.317s][debug][gc,heap        ] GC(8) Heap before GC invocations=9 (full 6):
+[2025-04-26T20:58:00.492+0000][3.317s][debug][gc,heap        ] GC(8)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.492+0000][3.317s][debug][gc,heap        ] GC(8)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fffb0,0x00000000f5600000)
+[2025-04-26T20:58:00.492+0000][3.317s][debug][gc,heap        ] GC(8)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.492+0000][3.317s][debug][gc,heap        ] GC(8)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.492+0000][3.317s][debug][gc,heap        ] GC(8)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.492+0000][3.318s][debug][gc,heap        ] GC(8)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fed8,0x00000000d5580000)
+[2025-04-26T20:58:00.492+0000][3.318s][debug][gc,heap        ] GC(8)  Metaspace       used 102K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.492+0000][3.318s][debug][gc,heap        ] GC(8)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.492+0000][3.318s][info ][gc,start       ] GC(8) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.492+0000][3.318s][info ][gc,phases,start] GC(8) Marking Phase
+[2025-04-26T20:58:00.508+0000][3.334s][info ][gc,phases      ] GC(8) Marking Phase 16.787ms
+[2025-04-26T20:58:00.508+0000][3.334s][info ][gc,phases,start] GC(8) Summary Phase
+[2025-04-26T20:58:00.508+0000][3.334s][info ][gc,phases      ] GC(8) Summary Phase 0.021ms
+[2025-04-26T20:58:00.508+0000][3.334s][info ][gc,phases,start] GC(8) Adjust Roots
+[2025-04-26T20:58:00.509+0000][3.335s][info ][gc,phases      ] GC(8) Adjust Roots 0.243ms
+[2025-04-26T20:58:00.509+0000][3.335s][info ][gc,phases,start] GC(8) Compaction Phase
+[2025-04-26T20:58:00.589+0000][3.415s][info ][gc,phases      ] GC(8) Compaction Phase 80.748ms
+[2025-04-26T20:58:00.589+0000][3.415s][info ][gc,phases,start] GC(8) Post Compact
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,phases      ] GC(8) Post Compact 4.119ms
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,heap        ] GC(8) PSYoungGen: 524799K(611840K)->524799K(611840K) Eden: 524799K(524800K)->524799K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,heap        ] GC(8) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,metaspace   ] GC(8) Metaspace: 102K(320K)->102K(320K) NonClass: 95K(192K)->95K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc             ] GC(8) Pause Full (Ergonomics) 1877M->1877M(1963M) 102.116ms
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,cpu         ] GC(8) User=0.19s Sys=0.01s Real=0.10s
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8) Heap after GC invocations=9 (full 6):
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fff38,0x00000000f5600000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557feb8,0x00000000d5580000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)  Metaspace       used 102K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(8)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9) Heap before GC invocations=10 (full 7):
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55ffff0,0x00000000f5600000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557feb8,0x00000000d5580000)
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.594+0000][3.420s][debug][gc,heap        ] GC(9)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,start       ] GC(9) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.594+0000][3.420s][info ][gc,phases,start] GC(9) Marking Phase
+[2025-04-26T20:58:00.612+0000][3.438s][info ][gc,phases      ] GC(9) Marking Phase 17.414ms
+[2025-04-26T20:58:00.612+0000][3.438s][info ][gc,phases,start] GC(9) Summary Phase
+[2025-04-26T20:58:00.612+0000][3.438s][info ][gc,phases      ] GC(9) Summary Phase 0.022ms
+[2025-04-26T20:58:00.612+0000][3.438s][info ][gc,phases,start] GC(9) Adjust Roots
+[2025-04-26T20:58:00.612+0000][3.438s][info ][gc,phases      ] GC(9) Adjust Roots 0.144ms
+[2025-04-26T20:58:00.612+0000][3.438s][info ][gc,phases,start] GC(9) Compaction Phase
+[2025-04-26T20:58:00.625+0000][3.451s][info ][gc,phases      ] GC(9) Compaction Phase 13.660ms
+[2025-04-26T20:58:00.625+0000][3.451s][info ][gc,phases,start] GC(9) Post Compact
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,phases      ] GC(9) Post Compact 3.522ms
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,heap        ] GC(9) PSYoungGen: 524799K(611840K)->524799K(611840K) Eden: 524799K(524800K)->524799K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,heap        ] GC(9) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,metaspace   ] GC(9) Metaspace: 103K(320K)->103K(320K) NonClass: 95K(192K)->95K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc             ] GC(9) Pause Full (Ergonomics) 1877M->1877M(1963M) 34.953ms
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,cpu         ] GC(9) User=0.07s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9) Heap after GC invocations=10 (full 7):
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fffd0,0x00000000f5600000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557feb8,0x00000000d5580000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(9)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10) Heap before GC invocations=11 (full 8):
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55ffff0,0x00000000f5600000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557feb8,0x00000000d5580000)
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.629+0000][3.455s][debug][gc,heap        ] GC(10)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,start       ] GC(10) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.629+0000][3.455s][info ][gc,phases,start] GC(10) Marking Phase
+[2025-04-26T20:58:00.648+0000][3.474s][info ][gc,phases      ] GC(10) Marking Phase 18.195ms
+[2025-04-26T20:58:00.648+0000][3.474s][info ][gc,phases,start] GC(10) Summary Phase
+[2025-04-26T20:58:00.648+0000][3.474s][info ][gc,phases      ] GC(10) Summary Phase 0.039ms
+[2025-04-26T20:58:00.648+0000][3.474s][info ][gc,phases,start] GC(10) Adjust Roots
+[2025-04-26T20:58:00.648+0000][3.474s][info ][gc,phases      ] GC(10) Adjust Roots 0.134ms
+[2025-04-26T20:58:00.648+0000][3.474s][info ][gc,phases,start] GC(10) Compaction Phase
+[2025-04-26T20:58:00.657+0000][3.483s][info ][gc,phases      ] GC(10) Compaction Phase 9.188ms
+[2025-04-26T20:58:00.657+0000][3.483s][info ][gc,phases,start] GC(10) Post Compact
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,phases      ] GC(10) Post Compact 3.549ms
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,heap        ] GC(10) PSYoungGen: 524799K(611840K)->524799K(611840K) Eden: 524799K(524800K)->524799K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,heap        ] GC(10) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,metaspace   ] GC(10) Metaspace: 103K(320K)->103K(320K) NonClass: 95K(192K)->95K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc             ] GC(10) Pause Full (Ergonomics) 1877M->1877M(1963M) 31.272ms
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,cpu         ] GC(10) User=0.05s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10) Heap after GC invocations=11 (full 8):
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55ffff0,0x00000000f5600000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557feb8,0x00000000d5580000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(10)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11) Heap before GC invocations=12 (full 9):
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff8,0x00000000d5580000)
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.661+0000][3.487s][debug][gc,heap        ] GC(11)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,start       ] GC(11) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.661+0000][3.487s][info ][gc,phases,start] GC(11) Marking Phase
+[2025-04-26T20:58:00.679+0000][3.505s][info ][gc,phases      ] GC(11) Marking Phase 17.779ms
+[2025-04-26T20:58:00.679+0000][3.505s][info ][gc,phases,start] GC(11) Summary Phase
+[2025-04-26T20:58:00.679+0000][3.505s][info ][gc,phases      ] GC(11) Summary Phase 0.031ms
+[2025-04-26T20:58:00.679+0000][3.505s][info ][gc,phases,start] GC(11) Adjust Roots
+[2025-04-26T20:58:00.680+0000][3.505s][info ][gc,phases      ] GC(11) Adjust Roots 0.181ms
+[2025-04-26T20:58:00.680+0000][3.505s][info ][gc,phases,start] GC(11) Compaction Phase
+[2025-04-26T20:58:00.763+0000][3.589s][info ][gc,phases      ] GC(11) Compaction Phase 83.800ms
+[2025-04-26T20:58:00.763+0000][3.589s][info ][gc,phases,start] GC(11) Post Compact
+[2025-04-26T20:58:00.767+0000][3.593s][info ][gc,phases      ] GC(11) Post Compact 4.082ms
+[2025-04-26T20:58:00.768+0000][3.593s][info ][gc,heap        ] GC(11) PSYoungGen: 524800K(611840K)->524799K(611840K) Eden: 524800K(524800K)->524799K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.768+0000][3.594s][info ][gc,heap        ] GC(11) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.768+0000][3.594s][info ][gc,metaspace   ] GC(11) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.768+0000][3.594s][info ][gc             ] GC(11) Pause Full (Ergonomics) 1877M->1877M(1963M) 106.093ms
+[2025-04-26T20:58:00.768+0000][3.594s][info ][gc,cpu         ] GC(11) User=0.20s Sys=0.00s Real=0.10s
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11) Heap after GC invocations=12 (full 9):
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)  PSYoungGen      total 611840K, used 524799K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)   eden space 524800K, 99% used [0x00000000d5580000,0x00000000f55fffe0,0x00000000f5600000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557ff70,0x00000000d5580000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(11)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12) Heap before GC invocations=13 (full 10):
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557ff70,0x00000000d5580000)
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.768+0000][3.594s][debug][gc,heap        ] GC(12)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.768+0000][3.594s][info ][gc,start       ] GC(12) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.768+0000][3.594s][info ][gc,phases,start] GC(12) Marking Phase
+[2025-04-26T20:58:00.785+0000][3.611s][info ][gc,phases      ] GC(12) Marking Phase 16.835ms
+[2025-04-26T20:58:00.785+0000][3.611s][info ][gc,phases,start] GC(12) Summary Phase
+[2025-04-26T20:58:00.785+0000][3.611s][info ][gc,phases      ] GC(12) Summary Phase 0.030ms
+[2025-04-26T20:58:00.785+0000][3.611s][info ][gc,phases,start] GC(12) Adjust Roots
+[2025-04-26T20:58:00.785+0000][3.611s][info ][gc,phases      ] GC(12) Adjust Roots 0.145ms
+[2025-04-26T20:58:00.785+0000][3.611s][info ][gc,phases,start] GC(12) Compaction Phase
+[2025-04-26T20:58:00.798+0000][3.624s][info ][gc,phases      ] GC(12) Compaction Phase 13.324ms
+[2025-04-26T20:58:00.798+0000][3.624s][info ][gc,phases,start] GC(12) Post Compact
+[2025-04-26T20:58:00.802+0000][3.628s][info ][gc,phases      ] GC(12) Post Compact 3.815ms
+[2025-04-26T20:58:00.802+0000][3.628s][info ][gc,heap        ] GC(12) PSYoungGen: 524800K(611840K)->524800K(611840K) Eden: 524800K(524800K)->524800K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.802+0000][3.628s][info ][gc,heap        ] GC(12) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.802+0000][3.628s][info ][gc,metaspace   ] GC(12) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.802+0000][3.628s][info ][gc             ] GC(12) Pause Full (Ergonomics) 1877M->1877M(1963M) 34.345ms
+[2025-04-26T20:58:00.802+0000][3.628s][info ][gc,cpu         ] GC(12) User=0.06s Sys=0.00s Real=0.04s
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12) Heap after GC invocations=13 (full 10):
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557ff70,0x00000000d5580000)
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.802+0000][3.628s][debug][gc,heap        ] GC(12)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13) Heap before GC invocations=14 (full 11):
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.803+0000][3.629s][debug][gc,heap        ] GC(13)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.803+0000][3.629s][info ][gc,start       ] GC(13) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.803+0000][3.629s][info ][gc,phases,start] GC(13) Marking Phase
+[2025-04-26T20:58:00.821+0000][3.647s][info ][gc,phases      ] GC(13) Marking Phase 18.635ms
+[2025-04-26T20:58:00.821+0000][3.647s][info ][gc,phases,start] GC(13) Summary Phase
+[2025-04-26T20:58:00.821+0000][3.647s][info ][gc,phases      ] GC(13) Summary Phase 0.031ms
+[2025-04-26T20:58:00.821+0000][3.647s][info ][gc,phases,start] GC(13) Adjust Roots
+[2025-04-26T20:58:00.822+0000][3.647s][info ][gc,phases      ] GC(13) Adjust Roots 0.115ms
+[2025-04-26T20:58:00.822+0000][3.647s][info ][gc,phases,start] GC(13) Compaction Phase
+[2025-04-26T20:58:00.831+0000][3.657s][info ][gc,phases      ] GC(13) Compaction Phase 9.653ms
+[2025-04-26T20:58:00.831+0000][3.657s][info ][gc,phases,start] GC(13) Post Compact
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,phases      ] GC(13) Post Compact 3.715ms
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,heap        ] GC(13) PSYoungGen: 524800K(611840K)->524800K(611840K) Eden: 524800K(524800K)->524800K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,heap        ] GC(13) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,metaspace   ] GC(13) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc             ] GC(13) Pause Full (Ergonomics) 1877M->1877M(1963M) 32.301ms
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,cpu         ] GC(13) User=0.05s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13) Heap after GC invocations=14 (full 11):
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(13)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14) Heap before GC invocations=15 (full 12):
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.835+0000][3.661s][debug][gc,heap        ] GC(14)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,start       ] GC(14) Pause Full (Allocation Failure)
+[2025-04-26T20:58:00.835+0000][3.661s][info ][gc,phases,start] GC(14) Marking Phase
+[2025-04-26T20:58:00.854+0000][3.680s][info ][gc,phases      ] GC(14) Marking Phase 18.788ms
+[2025-04-26T20:58:00.854+0000][3.680s][info ][gc,phases,start] GC(14) Summary Phase
+[2025-04-26T20:58:00.854+0000][3.680s][info ][gc,phases      ] GC(14) Summary Phase 0.031ms
+[2025-04-26T20:58:00.854+0000][3.680s][info ][gc,phases,start] GC(14) Adjust Roots
+[2025-04-26T20:58:00.854+0000][3.680s][info ][gc,phases      ] GC(14) Adjust Roots 0.119ms
+[2025-04-26T20:58:00.854+0000][3.680s][info ][gc,phases,start] GC(14) Compaction Phase
+[2025-04-26T20:58:00.863+0000][3.689s][info ][gc,phases      ] GC(14) Compaction Phase 9.240ms
+[2025-04-26T20:58:00.863+0000][3.689s][info ][gc,phases,start] GC(14) Post Compact
+[2025-04-26T20:58:00.867+0000][3.693s][info ][gc,phases      ] GC(14) Post Compact 3.708ms
+[2025-04-26T20:58:00.867+0000][3.693s][info ][gc,heap        ] GC(14) PSYoungGen: 524800K(611840K)->524800K(611840K) Eden: 524800K(524800K)->524800K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.867+0000][3.693s][info ][gc,heap        ] GC(14) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.867+0000][3.693s][info ][gc,metaspace   ] GC(14) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.867+0000][3.693s][info ][gc             ] GC(14) Pause Full (Allocation Failure) 1877M->1877M(1963M) 32.034ms
+[2025-04-26T20:58:00.867+0000][3.693s][info ][gc,cpu         ] GC(14) User=0.06s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14) Heap after GC invocations=15 (full 12):
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.867+0000][3.693s][debug][gc,heap        ] GC(14)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.868+0000][3.693s][debug][gc,heap        ] GC(15) Heap before GC invocations=16 (full 13):
+[2025-04-26T20:58:00.868+0000][3.693s][debug][gc,heap        ] GC(15)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.868+0000][3.693s][debug][gc,heap        ] GC(15)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.868+0000][3.693s][debug][gc,heap        ] GC(15)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.868+0000][3.693s][debug][gc,heap        ] GC(15)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.868+0000][3.694s][debug][gc,heap        ] GC(15)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.868+0000][3.694s][debug][gc,heap        ] GC(15)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.868+0000][3.694s][debug][gc,heap        ] GC(15)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.868+0000][3.694s][debug][gc,heap        ] GC(15)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.868+0000][3.694s][info ][gc,start       ] GC(15) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.868+0000][3.694s][info ][gc,phases,start] GC(15) Marking Phase
+[2025-04-26T20:58:00.883+0000][3.709s][info ][gc,phases      ] GC(15) Marking Phase 15.023ms
+[2025-04-26T20:58:00.883+0000][3.709s][info ][gc,phases,start] GC(15) Summary Phase
+[2025-04-26T20:58:00.883+0000][3.709s][info ][gc,phases      ] GC(15) Summary Phase 0.031ms
+[2025-04-26T20:58:00.883+0000][3.709s][info ][gc,phases,start] GC(15) Adjust Roots
+[2025-04-26T20:58:00.883+0000][3.709s][info ][gc,phases      ] GC(15) Adjust Roots 0.134ms
+[2025-04-26T20:58:00.883+0000][3.709s][info ][gc,phases,start] GC(15) Compaction Phase
+[2025-04-26T20:58:00.892+0000][3.718s][info ][gc,phases      ] GC(15) Compaction Phase 8.891ms
+[2025-04-26T20:58:00.892+0000][3.718s][info ][gc,phases,start] GC(15) Post Compact
+[2025-04-26T20:58:00.895+0000][3.721s][info ][gc,phases      ] GC(15) Post Compact 3.541ms
+[2025-04-26T20:58:00.895+0000][3.721s][info ][gc,heap        ] GC(15) PSYoungGen: 524800K(611840K)->524800K(611840K) Eden: 524800K(524800K)->524800K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.895+0000][3.721s][info ][gc,heap        ] GC(15) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.895+0000][3.721s][info ][gc,metaspace   ] GC(15) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.895+0000][3.721s][info ][gc             ] GC(15) Pause Full (Ergonomics) 1877M->1877M(1963M) 27.777ms
+[2025-04-26T20:58:00.895+0000][3.721s][info ][gc,cpu         ] GC(15) User=0.05s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15) Heap after GC invocations=16 (full 13):
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(15)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.895+0000][3.721s][debug][gc,heap        ] GC(16) Heap before GC invocations=17 (full 14):
+[2025-04-26T20:58:00.896+0000][3.721s][debug][gc,heap        ] GC(16)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.896+0000][3.721s][debug][gc,heap        ] GC(16)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.896+0000][3.721s][debug][gc,heap        ] GC(16)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.896+0000][3.721s][debug][gc,heap        ] GC(16)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.896+0000][3.721s][debug][gc,heap        ] GC(16)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.896+0000][3.721s][debug][gc,heap        ] GC(16)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.896+0000][3.722s][debug][gc,heap        ] GC(16)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.896+0000][3.722s][debug][gc,heap        ] GC(16)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.896+0000][3.722s][info ][gc,start       ] GC(16) Pause Full (Allocation Failure)
+[2025-04-26T20:58:00.896+0000][3.722s][info ][gc,phases,start] GC(16) Marking Phase
+[2025-04-26T20:58:00.910+0000][3.736s][info ][gc,phases      ] GC(16) Marking Phase 14.835ms
+[2025-04-26T20:58:00.910+0000][3.736s][info ][gc,phases,start] GC(16) Summary Phase
+[2025-04-26T20:58:00.910+0000][3.736s][info ][gc,phases      ] GC(16) Summary Phase 0.031ms
+[2025-04-26T20:58:00.910+0000][3.736s][info ][gc,phases,start] GC(16) Adjust Roots
+[2025-04-26T20:58:00.911+0000][3.737s][info ][gc,phases      ] GC(16) Adjust Roots 0.098ms
+[2025-04-26T20:58:00.911+0000][3.737s][info ][gc,phases,start] GC(16) Compaction Phase
+[2025-04-26T20:58:00.919+0000][3.745s][info ][gc,phases      ] GC(16) Compaction Phase 8.566ms
+[2025-04-26T20:58:00.919+0000][3.745s][info ][gc,phases,start] GC(16) Post Compact
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,phases      ] GC(16) Post Compact 3.506ms
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,heap        ] GC(16) PSYoungGen: 524800K(611840K)->524800K(611840K) Eden: 524800K(524800K)->524800K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,heap        ] GC(16) ParOldGen: 1398271K(1398272K)->1398271K(1398272K)
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,metaspace   ] GC(16) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc             ] GC(16) Pause Full (Allocation Failure) 1877M->1877M(1963M) 27.180ms
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,cpu         ] GC(16) User=0.05s Sys=0.00s Real=0.03s
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16) Heap after GC invocations=17 (full 14):
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(16)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17) Heap before GC invocations=18 (full 15):
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)  PSYoungGen      total 611840K, used 524800K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)   eden space 524800K, 100% used [0x00000000d5580000,0x00000000f5600000,0x00000000f5600000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)   from space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)   to   space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)  ParOldGen       total 1398272K, used 1398271K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)   object space 1398272K, 99% used [0x0000000080000000,0x00000000d557fff0,0x00000000d5580000)
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.923+0000][3.749s][debug][gc,heap        ] GC(17)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,start       ] GC(17) Pause Full (Ergonomics)
+[2025-04-26T20:58:00.923+0000][3.749s][info ][gc,phases,start] GC(17) Marking Phase
+[2025-04-26T20:58:00.924+0000][3.750s][info ][gc,phases      ] GC(17) Marking Phase 1.044ms
+[2025-04-26T20:58:00.924+0000][3.750s][info ][gc,phases,start] GC(17) Summary Phase
+[2025-04-26T20:58:00.924+0000][3.750s][info ][gc,phases      ] GC(17) Summary Phase 0.026ms
+[2025-04-26T20:58:00.924+0000][3.750s][info ][gc,phases,start] GC(17) Adjust Roots
+[2025-04-26T20:58:00.924+0000][3.750s][info ][gc,phases      ] GC(17) Adjust Roots 0.113ms
+[2025-04-26T20:58:00.924+0000][3.750s][info ][gc,phases,start] GC(17) Compaction Phase
+[2025-04-26T20:58:00.925+0000][3.751s][info ][gc,phases      ] GC(17) Compaction Phase 0.725ms
+[2025-04-26T20:58:00.925+0000][3.751s][info ][gc,phases,start] GC(17) Post Compact
+[2025-04-26T20:58:00.929+0000][3.755s][info ][gc,phases      ] GC(17) Post Compact 3.414ms
+[2025-04-26T20:58:00.929+0000][3.755s][info ][gc,heap        ] GC(17) PSYoungGen: 524800K(611840K)->0K(611840K) Eden: 524800K(524800K)->0K(524800K) From: 0K(87040K)->0K(87040K)
+[2025-04-26T20:58:00.929+0000][3.755s][info ][gc,heap        ] GC(17) ParOldGen: 1398271K(1398272K)->1611K(1398272K)
+[2025-04-26T20:58:00.929+0000][3.755s][info ][gc,metaspace   ] GC(17) Metaspace: 103K(320K)->103K(320K) NonClass: 96K(192K)->96K(192K) Class: 7K(128K)->7K(128K)
+[2025-04-26T20:58:00.929+0000][3.755s][info ][gc             ] GC(17) Pause Full (Ergonomics) 1877M->1M(1963M) 5.472ms
+[2025-04-26T20:58:00.929+0000][3.755s][info ][gc,cpu         ] GC(17) User=0.00s Sys=0.00s Real=0.00s
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17) Heap after GC invocations=18 (full 15):
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)  PSYoungGen      total 611840K, used 0K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)   eden space 524800K, 0% used [0x00000000d5580000,0x00000000d5580000,0x00000000f5600000)
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)  ParOldGen       total 1398272K, used 1611K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)   object space 1398272K, 0% used [0x0000000080000000,0x0000000080192d68,0x00000000d5580000)
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)  Metaspace       used 103K, committed 320K, reserved 1114112K
+[2025-04-26T20:58:00.929+0000][3.755s][debug][gc,heap        ] GC(17)   class space    used 7K, committed 128K, reserved 1048576K
+[2025-04-26T21:00:27.206+0000][150.032s][info ][gc,heap,exit   ] Heap
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]  PSYoungGen      total 611840K, used 53174K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]   eden space 524800K, 10% used [0x00000000d5580000,0x00000000d896db30,0x00000000f5600000)
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]   from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]   to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]  ParOldGen       total 1398272K, used 1611K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]   object space 1398272K, 0% used [0x0000000080000000,0x0000000080192d68,0x00000000d5580000)
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]  Metaspace       used 137K, committed 320K, reserved 1114112K
+[2025-04-26T21:00:27.207+0000][150.033s][info ][gc,heap,exit   ]   class space    used 12K, committed 128K, reserved 1048576K

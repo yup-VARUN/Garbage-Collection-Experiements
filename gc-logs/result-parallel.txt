@@ -1,0 +1,12 @@
+Starting benchmark: Warmup=30000ms, Measure=120000ms, Total=150000ms
+Heap settings: null null
+LongLivedThread starting.
+ShortLivedThread starting.
+LongLivedThread entering measurement phase.
+ShortLivedThread entering measurement phase.
+LongLivedThread finished.
+ShortLivedThread finished.
+Benchmark threads finished.
+Short-lived allocations/sec: 3,397,094
+Long-lived allocations/sec:  461,392
+Total benchmark runtime: 150.01 seconds
